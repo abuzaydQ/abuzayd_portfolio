@@ -1,0 +1,365 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    width: auto;
+
+
+}
+div.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+.nav a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.nav a:hover {
+    background-color: rgb(102, 216, 102);
+    display: flex;
+    width: auto;
+    flex-direction: row;
+
+}
+div.flex-container1 {
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(53, 52, 52);
+    justify-content: space-evenly;
+    align-content: center;
+
+
+
+
+}
+.flex-container1 > div {
+    text-align: center;
+    color: white;
+    margin-left: 0px;
+    padding-left: 0px;
+    
+}
+/* .textbody {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+} 
+*/
+.imagebody img {
+   width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    align-items: center;
+    opacity: 1.0;
+    box-shadow: 5px 10px 5px 10px black;
+}
+a {
+    text-decoration: none;
+}
+button {
+    width: fit-content;
+    padding: 12px 16px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: grey;
+}
+button:hover {
+    background-color: rgb(106, 233, 106);
+}
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+}
+.flex-container3 {
+    background-color: rgb(53, 52, 52);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-content: center;
+    padding: 10px;
+}
+.flex-container3 > div {
+    
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 10px black;
+
+
+
+}
+i {
+    font-size: 25px;
+}
+.flex-container4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+div.flex-container5 {
+    background-color:  rgb(53, 52, 52);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-content: center;
+    padding: 10px;
+}
+.flex-container5 > div {
+
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    color: white;    
+}
+img {
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+    box-shadow: 5px 10px black;
+
+}
+div.flex-container6 {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-content: space-around;
+    padding: 10px;
+    
+}
+.flex-container6 > div {
+    text-align: center;
+    width: 400px;
+    height: 400px;
+}
+div.flex-container7 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+div.flex-container8 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    background-color: rgb(53, 52, 52);
+}
+.flex-container8 > div {
+    width: 300px;
+    height: 350px;
+    color: white;
+}
+.flex-container8 i{
+    font-size: 20px;
+}
+.flex-container8 p{
+    text-align: justify;
+
+}
+.flex-container9 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-container10 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+
+}
+.flex-container10 > div {
+    width: 600px;
+    height: 580px;
+    text-align: center;
+    padding: 20px;
+}
+.flex-container10 > div i {
+    float: left;
+}
+.flex-container10 > div p {
+    text-align: center;
+    font-size: 18px;
+    
+}
+.flex-container10 .box10 p{
+    text-align: left ;
+}
+
+.flex-container10 > div input[type=text]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px 24px;
+    margin: 8px 0px;
+
+}
+.flex-container10 .box9 .quote {
+    font-size: 20px;
+} 
+.flex-container10 > div input[type=email]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 24px;
+    margin: 8px 0px;
+}
+.flex-container10 > div textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 24px;
+    margin: 8px 0px
+}
+.flex-container10 > div input[type=submit]{
+    width: 20%;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-align: center;
+}
+.flex-container10 > div input[type=submit]:hover {
+    background-color: rgb(9, 209, 9);
+}
+.flex-container10 .social i {
+    margin: 10px;
+    float: right;
+}
+.flex-container11 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    align-content: center;
+}
+.flex-container11 > div {
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+@media screen and  (max-width: 750px) {
+    div.sticky{
+        position: relative;
+    }
+
+    div.nav {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: white;
+    }
+    div.nav a {
+        color: green;
+    }
+    div.nav a:hover {
+        background-color: lightgreen;
+    }
+
+}
+@media screen and  (max-width: 750px) {
+    div.flex-container1 {
+        background-color: green;
+    }
+    .flex-container1 > div {
+       /* width: 500px;
+        height: 400px; */
+        text-align: center;
+        color:white;
+        margin-left: 0px;
+        padding-left: 0px;
+
+        
+    }
+    div.flex-container2 {
+        color: green;
+    }
+    div.flex-container3 {
+        background-color: green;
+        
+    }
+    div.flex-container3 > div {
+        color: green;
+
+    }div.flex-container3 > div h4 {
+        color: black;
+    }
+    
+    div.flex-container5 {
+        background-color: green;
+    }
+    div.flex-container8 {
+        background-color: green;
+    }
+    .flex-container10 > div input[type=submit]{
+        width: 30%;
+        font-size: 15px;
+        box-sizing: border-box;
+        padding: 12px 24px;
+        border-radius: 10px;
+        text-align: left;
+        margin-left: 0px;
+    
+    }
+    .flex-container10 .box9 {
+        padding-top: 5px;
+    }
+    .flex-container10 .social i {
+        margin: 10px;
+        color: green;
+        display: inline-flex;
+        
+    }
+    div.flex-container11 {
+        background-color: green;
+    }
+    div.flex-container4, .flex-container7, .flex-container9 h2 {
+        color: green;
+    }
+}
+
+    
+    

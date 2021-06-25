@@ -438,7 +438,22 @@ div.flex-container8 {
         color: white;
         text-align: center;
     }
+
+    .flex-container10 > div input[type=submit]{
+        width: 40%;
+        font-size: 15px;
+        box-sizing: border-box;
+        padding: 12px 24px;
+        border-radius: 5px;
+        text-align: left;
+    }
     
+    
+.flex-container10 .social i {
+    margin: 5px;
+    float: right;
+}
+
 }
 
     

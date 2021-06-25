@@ -362,6 +362,13 @@ div.flex-container8 {
     margin: 5px;
     float: right;
 }
+.flex-container11 > div {
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+
 
 }
 @media screen and  (man-width: 750px) {
@@ -452,6 +459,12 @@ div.flex-container8 {
 .flex-container10 .social i {
     margin: 5px;
     float: right;
+}
+.flex-container11 > div {
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-align: center;
 }
 
 }

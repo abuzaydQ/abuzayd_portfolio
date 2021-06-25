@@ -333,6 +333,10 @@ div.flex-container8 {
     
     div.nav a:hover {
         background-color: grey;
+            display: flex;
+            width: auto;
+            flex-direction: row;
+        
     }
     .flex-container11 {
         display: flex;
@@ -411,6 +415,14 @@ div.flex-container8 {
 @media screen and  (man-width: 750px) {
     div.flex-container1 {
         background-color: grey;
+    }
+    
+    div.nav a:hover {
+        background-color: grey;
+            display: flex;
+            width: auto;
+            flex-direction: row;
+        
     }
     .flex-container1 > div {
        /* width: 500px;
